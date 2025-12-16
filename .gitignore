@@ -1,0 +1,70 @@
+Ignore the virtual environment (heavy)
+
+venv/
+pycache/
+*.pyc
+
+Ignore the huge dataset images (Github limit is 100MB)
+
+data/images/
+data/processed_images/
+*.png
+*.jpg
+*.jpeg
+
+Ignore the trained model if it is >100MB (Optional, usually good to ignore)
+
+*.pth
+*.joblib
+
+Ignore Mac/Windows system files
+
+.DS_Store
+Thumbs.db
+
+
+### **Step 2: Initialize Git (Locally)**
+1.  Open your **VS Code Terminal** (`Ctrl + ~`).
+2.  Run these commands one by one:
+
+```bash
+# 1. Initialize the repository
+git init
+
+# 2. Add all files (The .gitignore will block the huge files automatically)
+git add .
+
+# 3. Commit the changes (Save the snapshot)
+git commit -m "Final submission: Density-Aware Dual-Stream Architecture"
+
+
+Step 3: Create the Repository on GitHub
+
+Go to GitHub.com and log in.
+
+Click the + icon in the top right -> New repository.
+
+Repository name: Density-Aware-Mammography (or DensAware-AI).
+
+Description: "Final Year Engineering Project: A Dual-Stream Multimodal Fusion Framework for Breast Cancer Detection."
+
+Public/Private: Choose Public (so your professor can see it).
+
+Do NOT check "Add a README" (you already have one).
+
+Click Create repository.
+
+Step 4: Connect and Push
+
+GitHub will show you a page with commands. Copy the ones under "…or push an existing repository from the command line".
+
+It will look like this (run these in your VS Code terminal):
+
+# 1. Link your local folder to GitHub (Replace URL with YOUR specific link)
+git remote add origin https://github.com/YOUR_USERNAME/Density-Aware-Mammography.git
+
+# 2. Rename branch to main (Standard practice)
+git branch -M main
+
+# 3. Push the code
+git push -u origin main

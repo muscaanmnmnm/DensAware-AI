@@ -1,0 +1,22 @@
+/* Most styles are handled by Tailwind CSS in index.html.
+   This file is reserved for complex animations if needed.
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #fff1f2;
+}
+::-webkit-scrollbar-thumb {
+    background: #fb7185;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #f43f5e;
+}
