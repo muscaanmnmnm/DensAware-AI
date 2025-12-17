@@ -67,7 +67,7 @@ DENSITY-AWARE-MAMMOGRAPHY/
 
 1. Clone the Repository
 
-git clone [https://github.com/muscaanmnmnm/Density-Aware-Mammography.git](https://github.com/muscaanmnmnm/Density-Aware-Mammography.git)
+git clone [https://github.com/muscaanmnmnm/DensAware-AI.git](https://github.com/muscaanmnmnm/DensAware-AI.git)
 cd Density-Aware-Mammography
 
 
