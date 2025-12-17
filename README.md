@@ -107,11 +107,10 @@ Secure Upload: Drag-and-drop mammogram analysis.
 Clinical Context: Input fields for Density and View Position.
 
 Research Dashboard: Visualizations of model performance and dataset statistics.
+https://v0-breast-cancer-detection-app-jc.vercel.app/
 
 🤝 Acknowledgments
 
 Dataset: VinDr-Mammo
 
 Frameworks: PyTorch, Flask, Tailwind CSS.
-
-*Disclaimer: This tool is a Final Year Engineering Project developed for research purposes.
